@@ -3,7 +3,7 @@
   "private": true,
   "version": "1",
   "type": "module",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://LennyT2004.github.io/todo-list",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
