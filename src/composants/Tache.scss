@@ -1,0 +1,32 @@
+.Tache {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 7.5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.Tache .infos-taches {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-left: 1rem;
+    color: white;
+}
+
+.Tache .boutons-action {
+    margin-right: 1rem;
+}
+
+.Tache .btn-tache {
+    color: var(--clr-orange);
+}

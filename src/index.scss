@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  // Je suis daltonien, ayez pitié stp
+  --clr-degrade-violet : radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+  --clr-degrade-orange : radial-gradient( circle farthest-corner at 10% 20%,  rgba(224,191,53,1) 0%, rgba(244,123,123,1) 90% );
+  --clr-violet : rgb(32, 78, 117);
+  --clr-orange : rgb(206, 139, 16);
+
+}
+
+body {
+  margin: 0;
+}
